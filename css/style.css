@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+	font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+body {
+	font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+header{
+    background: #282828;
+}
+header ul{
+    text-align: center;
+}
+header ul li{
+    display: inline-block;
+    padding: 15px 30px;
+}
+header ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 23px;
+    /* display: inline-block; */
+    display: block;
+}
+
+
+section.signin-section{
+    /* color: #fff; */
+    padding-top: 59px;
+    background-color: #333333;
+    /* margin-bottom: auto; */
+    padding-bottom: 1px;
+    color: #fff;
+}
+section.aboutus-portfolio{}
+.container_portfolio{
+    margin: 0 auto;
+    width: 1000px;
+}
+.about-us{
+    text-align: center;
+    /* margin: 40px; */
+    margin-top: 27px;
+}
+.about-us span{
+    font-size: 27px;
+}
+.about-us p{}
+
+.description{
+    font-size: 30px;
+    margin-top: 90px;
+}
+.description p{}
+.description p b{}
+
+img{
+    display: block;
+}
+.container{
+    margin: 0 auto;
+    /* text-align: center; */
+    width: 450px;
+}
+.logo_part{
+    /* max-width: 200px; */
+    text-align: center;
+}
+.logo_part img{
+    max-width: 200px;
+    margin: 0 auto;
+}
+.logo_part p{
+    /* width: 134px; */
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.social_media{
+    /* margin: 25px; */
+    border: 1px solid #6c6c6c;
+    padding: 15px 25px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.social_media ul{}
+.social_media ul li{
+    list-style: none;
+    margin: 13px 0;
+}
+.social_media ul li a{
+    color: #fff;
+    text-align: center;
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.social_media ul li a.facebook{
+	background-color: #344E86;
+}
+.social_media ul li a.twitter{
+	background-color: #0C85D0;
+}
+.social_media ul li a.google{
+	background-color: #2A75F3;
+	/* border-radius: 5px; */
+}
+
+.sign_in_form{}
+.sign_in_form form {
+    /* display: block; */
+}
+.sign_in_form form label{
+    display: block;
+    font-size: 17px;
+}
+.sign_in_form form label a{
+    color: #fff;
+}
+.sign_in_form form input{
+    width: 100%;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.sign_in_form form input[type="submit"]{
+    color: #fff;
+    background-color: #DF3E7B;
+    font-size: 20px;
+}
+.sign_in_form p{
+    text-align: center;
+    /* color: #fff; */
+    margin-bottom: 21px;
+    margin-top: 6px;
+}
+.sign_in_form p a {
+    color: #fff;
+}
